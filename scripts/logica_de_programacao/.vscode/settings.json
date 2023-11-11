@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "triangulo"
-    ]
+    ],
+    "cSpell.language": "en,pt,pt-BR",
+    "python.analysis.autoImportCompletions": false
 }

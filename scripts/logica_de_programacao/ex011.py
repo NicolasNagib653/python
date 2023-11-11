@@ -1,6 +1,6 @@
 massa  = float(input("Qual o seu peso? "))
 altura = float(input("A sua altura? "))
-IMC    = round(massa / altura**2, 2)
+IMC    = round(massa / altura**2, 1)
 
 print("O seu peso é de Kg", massa, "já a sua altura é de m", altura, "Seu IMC é", IMC)
 
