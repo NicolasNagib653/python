@@ -4,18 +4,18 @@ import pandas
 # 29106
 # Passo 1: abrir o site
 
-pyautogui.PAUSE= 1
+pyautogui.PAUSE= 0.2
 pyautogui.press("win")
 pyautogui.write("google")
 pyautogui.press("enter")
-time.sleep(2)
+time.sleep(1)
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 pyautogui.write(link)
 pyautogui.press("enter")
-time.sleep(3)
+time.sleep(2)
 # passo 2: logar no sistema
 
-pyautogui.click(x=936, y=327)
+pyautogui.click(x=783, y=376)
 pyautogui.write("robsom@gmail.com")
 pyautogui.press("tab")
 
@@ -63,7 +63,7 @@ print(tabela)
 # Passo 5: Repetir o passo 4 até acabar todos os produtos
 for linha in tabela.index:
     # cod 
-    pyautogui.click(x=916, y=250)
+    pyautogui.click(x=774, y=260)
     cod = tabela.loc[linha, "codigo"]
     pyautogui.write(str(cod))
     pyautogui.press("tab")
